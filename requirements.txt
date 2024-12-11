@@ -3,3 +3,10 @@ streamlit-chat
 python-dotenv
 langchain
 openai
+
+langchain-core
+langchain-openai
+langchain-community
+huggingface-hub
+sentence-transformers
+faiss-cpu
