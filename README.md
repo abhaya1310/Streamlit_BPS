@@ -71,20 +71,6 @@ The project uses Streamlit to create an interactive chat interface for administr
    - If the question is out of scope, the system will notify the user and append a marker `[0]__[0]` to indicate the answer was adjusted accordingly.
    - Retrieved document sources and reference links are displayed at the end of the answer.
 
-## Project Structure
-
-```
-rag-policy-retrieval/
-├── app.py                # Main Streamlit application
-├── requirements.txt      # List of dependencies
-├── .env                  # Environment variable definitions (not included in repo)
-├── faiss_index/          # FAISS index directory containing the vector store
-├── src/
-│   ├── prompts.py        # Custom prompt templates and output parsers
-│   ├── retrieval.py      # Functions for document retrieval using FAISS
-│   └── chatbot.py        # RAG chain setup and language model integration
-└── README.md             # This file
-```
 
 ## Configuration
 
